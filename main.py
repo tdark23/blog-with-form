@@ -7,7 +7,7 @@ app = Flask(__name__)
 # USE YOUR OWN npoint LINK! ADD AN IMAGE URL FOR YOUR POST. 👇
 posts = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
 OWN_EMAIL = "tedmbangudemy@gmail.com"
-OWN_PASSWORD = "my password"
+OWN_PASSWORD = "gyqwqlwobzfktjrh"
 
 @app.route('/')
 def get_all_posts():
